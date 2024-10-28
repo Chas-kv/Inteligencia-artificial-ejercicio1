@@ -1,0 +1,17 @@
+python --version
+
+pip install virtualenv
+
+virtualenv mlp_env
+
+mpl_env\Scripts\activate
+
+pip install tensorflow numpy matplotlib 
+
+pip install Pillow
+
+pip freeze > requirements.txt
+pip install streamlit
+streamlit run app.py
+
+"G:\python 3.8\python.exe" -m pip install tensorflow
