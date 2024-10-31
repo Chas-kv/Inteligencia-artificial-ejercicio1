@@ -32,7 +32,9 @@ model.add(layers.Dense(512, activation='relu', input_shape=(28 * 28,)))
 
 model.add(layers.Dense(256, activation='relu'))
 
-model.add(layers.Dense(128, activation='relu'))
+
+
+model.add(layers.Dense(32, activation='relu'))
 
 model.add(layers.Dense(10, activation='softmax'))  # 10 clases de salida
 # Paso 5: Compilar el modelo
@@ -55,7 +57,7 @@ print(f'Precisión en el conjunto de prueba: {test_acc}')
 
 # Paso 8: Probar el modelo con una imagen del conjunto de prueba
 
-imagen = x_test[0].reshape(1, 28 * 28)  # Seleccionar la primera imagen
+imagen = x_test[3].reshape(1, 28 * 28)  # Seleccionar la primera imagen
 
 prediccion = model.predict(imagen)
 
@@ -63,7 +65,7 @@ digit_predicho = np.argmax(prediccion)
 
 # Mostrar la imagen y el dígito predicho
 
-plt.imshow(x_test[0].reshape(28, 28), cmap='gray')
+plt.imshow(x_test[3].reshape(28, 28), cmap='gray')
 
 plt.title(f'Predicción: {digit_predicho}')
 

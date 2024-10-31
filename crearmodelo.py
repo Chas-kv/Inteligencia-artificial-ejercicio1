@@ -27,12 +27,14 @@ y_test = tf.keras.utils.to_categorical(y_test, 10)
 # Paso 4: Definir el modelo MLP
 
 model = models.Sequential()
-
 model.add(layers.Dense(512, activation='relu', input_shape=(28 * 28,)))
-
 model.add(layers.Dense(256, activation='relu'))
-
 model.add(layers.Dense(128, activation='relu'))
+model.add(layers.Dense(64, activation='relu'))
+model.add(layers.Dense(32, activation='relu'))
+model.add(layers.Dense(16, activation='relu'))
+
+
 
 model.add(layers.Dense(10, activation='softmax'))  # 10 clases de salida
 # Paso 5: Compilar el modelo

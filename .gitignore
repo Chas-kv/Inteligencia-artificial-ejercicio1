@@ -1,3 +1,9 @@
 # created by virtualenv automatically
 .mpl_env
 mpl_env/
+.venv 
+venv/
+.crearmodelo.ipynb
+crearmodelo.ipynb/
+.Ejercicio_mision1.ipynb
+Ejercicio_mision1.ipynb/

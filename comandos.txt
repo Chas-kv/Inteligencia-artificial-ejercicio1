@@ -5,6 +5,7 @@ pip install virtualenv
 virtualenv mlp_env
 
 mpl_env\Scripts\activate
+deactivate
 
 pip install tensorflow numpy matplotlib 
 
@@ -13,5 +14,10 @@ pip install Pillow
 pip freeze > requirements.txt
 pip install streamlit
 streamlit run app.py
-
+git init
+git add .
+git commit -m "..." 
+git config --global user.email "kevin.jc750@gmai.com"
+git remote add origin https://github.com/Chas-kv/Inteligencia-artificial-ejercicio1.git
+git push -u origin master
 "G:\python 3.8\python.exe" -m pip install tensorflow
