@@ -21,3 +21,7 @@ git config --global user.email "kevin.jc750@gmai.com"
 git remote add origin https://github.com/Chas-kv/Inteligencia-artificial-ejercicio1.git
 git push -u origin master
 "G:\python 3.8\python.exe" -m pip install tensorflow
+
+pip install -r requirements.txt
+
+
