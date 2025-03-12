@@ -43,7 +43,7 @@ Esto abrirá la interfaz en el navegador donde se podrán cargar imágenes y obs
 - Para mejorar el modelo, es recomendable entrenarlo con un conjunto de datos más variado o aplicar técnicas de data augmentation.
 
 ## Autor
-_Tu Nombre o Usuario de GitHub_
+_Chas-kv_
 
 ---
 Cualquier mejora o sugerencia es bienvenida. ¡Gracias por visitar este repositorio! 🚀
